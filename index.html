@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFlix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+
+        header {
+            background-color: #111;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .hero {
+            background: url('./netflixa.avif') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .movies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .movie {
+            width: 200px;
+            margin: 1rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #000;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MyFlix</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">New & Popular</a>
+        <a href="#">My List</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to MyFlix</h2>
+        <p>Watch your favorite movies and TV shows anytime, anywhere.</p>
+    </section>
+
+    <section>
+        <h2>Popular Movies</h2>
+        <div class="movies">
+            <div class="movie">
+                <img src="./movie1.jpg" alt="Movie 1">
+                <p>Movie 1</p>
+            </div>
+            <div class="movie">
+                <img src="./movie2.webp" alt="Movie 2">
+                <p>Movie 2</p>
+            </div>
+            <!-- Add more movie divs as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyFlix. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
